@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+  </head>
+  <body>
+    <div class="container p-3">
+      <div class="row justify-content-center my-5">
+        <div class="col-md-6">
+          <button class="btn btn-primary mb-3" id="add_product">
+            Add new product
+          </button>
+          <div class="card p-3 product-add-box">
+            <div class="card-body">
+              <div class="d-flex">
+                <h2>Add new product</h2>
+                <button
+                  id="product-card-close"
+                  type="button"
+                  class="btn-close ms-auto"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <hr />
+              <form id="products">
+                <div class="mb-3">
+                  <!-- <label for="productName" class="form-label">Product Name</label> -->
+                  <input
+                    type="text"
+                    name="productName"
+                    class="form-control"
+                    id="productName"
+                    placeholder="Product Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    name="productPrice"
+                    class="form-control"
+                    id="productPrice"
+                    placeholder="Product Price"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    name="salePrice"
+                    class="form-control"
+                    id="salePrice"
+                    placeholder="Sale Price"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    name="photoLink"
+                    class="form-control"
+                    id="photoLink"
+                    placeholder="Product Photo Link"
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    name="productDesc"
+                    placeholder="Product Description"
+                    id="productDesc"
+                    style="height: 100px"
+                  ></textarea>
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="submit"
+                    class="btn btn-primary w-100"
+                    id="submitButton"
+                    value="Add new product"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center my-5">
+        <div class="products">
+          <div id="plist" class="row">
+            <!--Data come form api-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- JS Files -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./src/js/function.js"></script>
+    <script src="./src/js/app.js"></script>
+  </body>
+</html>

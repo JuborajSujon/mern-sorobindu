@@ -1,0 +1,18 @@
+{
+    "students" : [
+        {
+			"name": "Asraful Haque",
+			"age": 15,
+			"location": "Mirpur",
+			"cell": "01717700811",
+			"marks": [
+				{
+					"bn": 60,
+					"en": 90,
+					"math": 100
+				}
+			]
+		}
+    ]
+}
+    

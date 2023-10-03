@@ -1,0 +1,180 @@
+# == Fetch all student data by loops
+
+====================================
+=> for
+=> for in
+=> for of
+=> forEach
+=> map
+
+# == Date Object
+
+=====================================
+
+- For date & time management
+- Date object has a constructor
+- Declare a Date object
+
+let date = new Date();
+
+# == get date information
+
+=======================================
+
+- date.getDate()
+- date.getMonth()
+- date.getFullYear()
+
+- date.getHoures()
+- date.getMinutes()
+- date.getSeconds()
+- date.getMiliseconds()
+
+- date.getTime()
+
+# == Date formates
+
+=========================================
+
+- 2021-12-07 => ISO
+- 07/12/2021 => short
+- December 7 2021 => Long
+
+== find Today form Date Object
+== find current month name from JS object
+
+# == Math Object
+
+===========================================
+
+== Math object has no constructor
+== It is static / you don't need to create any instance
+
+# == Math Property
+
+===========================================
+
+- Math.PI
+- Math.E
+- Math.SQART2
+- Math.SQUARTI_2
+- Math.LN2
+- Math.LN10
+- Math.LOG2E
+- Math.LOG10E
+
+# == Math methods
+
+============================================
+
+- Math.abs()
+- Math.cell()
+- Math.floor()
+- Math.round()
+- Math.max()
+- Math.min()
+- Math.sqrt()
+- Math.pow()
+- Math.random()
+
+# == String Object
+
+============================================
+== The string can be an object
+new String()
+but do not use this, please
+
+# == String Property
+
+============================================
+
+- constructor
+- length
+
+# == String methods
+
+============================================
+
+- charAt()
+- charCodeAt()
+- codePointAt()
+- toString()
+- concat()
+- startsWith()
+- endsWith()
+- includes()
+- indexOf()
+- lastIndexOf()
+- replace()
+- repeat()
+- search()
+- slice()
+- split()
+- substr()
+- toUpperCase()
+- toLowerCase()
+- trim()
+- trimStart()
+- trimEnd()
+- substring()
+- toLocaleUpperCase()
+- toLocaleLowerCase()
+- toLocaleString()
+- toLocaleDateString()
+- toLocaleTimeString()
+
+# == Number Object
+
+=============================================
+== Developer can create a number object by using constructor
+new Number()
+but do not use this, please
+
+# == Type conversion
+
+===============================================
+
+# == String to number
+
+==================================
+
+- Number()
+- parsenInt()
+- parsenFloat()
+- unary + operator
+
+# == Number to string
+
+==================================
+
+- string()
+- toString()
+- toExponential()
+- toFixed()
+- toPrecision()
+
+# == Date to Number
+
+==================================
+
+- Number()
+- getTime()
+
+# == Date to String
+
+==================================
+
+- String
+- toString
+
+# == Boolean to Number
+
+==================================
+
+- Number()
+
+# == Boolean to String
+
+==================================
+
+- String()

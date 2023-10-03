@@ -1,0 +1,94 @@
+# JavaScript DOM
+
+- DOM stands for document object model
+- the whole document of a website and its all elements are called DOM elements
+- We can add remove, change, and even delete elements from DOM
+- DOM operation are executed by DOM event
+- DOM properties and methods help DOM manipulation
+- DOM object is a document
+
+# DOM Object
+
+- title
+- domain
+- images
+- doctype
+- head
+- body
+- url
+- links
+- scripts
+- forms
+- embeds
+- cookies
+
+# DOM Selectors - ok
+
+- getElementById()
+- getElementsByClassName()
+- getElementsByTagName()
+- querySelector()
+- querySelectorAll()
+
+# DOM Property and Methods
+
+- innerHTML
+- innerText
+- textContent
+- setAttribute()
+- getAttribute()
+- hasAttribute()
+- style
+- className
+- classList.add()
+- classList.remove()
+- classList.replace()
+- classList.toggle()
+- classList.contains()
+- id
+- children
+- firstChild / firstElementChild
+- lastChild / lastElementChild
+- parentElement
+- nextElementSibling
+- previousElementSibling
+- value
+
+# Add and Delete Elements
+
+- createElement
+- createTextNode
+- append
+- appendChild
+- removeChild / remove
+- replaceChild
+- insertBefore
+- insertAfter
+- write
+
+# Event Listener
+
+- fire event in DOM
+- addEventListener(eventName, callback)
+- event with arrow
+
+# Mouse Events
+
+- Mouse Down
+- Mouse Up
+- Mouse Move
+- Mouse Enter
+- Mouse Leave
+
+# Keyboard Events
+
+- Key Down
+- Key Up
+- Key Press
+
+# Form Events
+
+- submit
+- change
+- focus
+- blur

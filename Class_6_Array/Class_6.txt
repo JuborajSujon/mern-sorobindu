@@ -1,0 +1,31 @@
+Class 06
+
+= What is Array and why
+= Create an array data structure
+= Get data from an array
+= Create a student array data structure
+= Array loops for data fetch
+= Array methods / function
+
+Assignments
+# Create a MERN stack, Laravel, Django, GoLang, WordPress, Java deves students data
+structure and make their total income sheet with per developer data, find specific developer information
+	1. Find all developer name
+	2. Find specific developer information
+	3. Income as specific developer
+	4. Total income sheet
+	5. Make developer group by age dynamic range
+	6. Make developer group by language
+
+#Create an array data structur with some data of fifth grade students where thir results will
+be published based on GPA and grade based on. 
+Publish CGPA and final grade in the final result
+	1. Create array by student infornmation 
+	2. Make a constructor function Result, 
+
+# Send a wellcome message to everyone over the age of 18 based on the age of the data array of
+all the members of a club and send a greeting message to the person over the age of 40, of course,
+send the message through a function and to those who are under 18 years of age. Give the message 
+to be attentive
+
+

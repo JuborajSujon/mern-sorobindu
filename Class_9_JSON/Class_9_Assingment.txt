@@ -1,0 +1,21 @@
+Class 09
+===============================
+* What is JSON and why
+* Declare a JSON data and JSON file
+* JSON conversion to array and object
+
+* Error handling
+* Try 
+* Catch
+* Throw
+* Finally
+
+# Assignment
+===============================
+* Create an array and object data structure with some data of fifth grade students where their results will be published based on GPA and grade based on Published CGPA and final grade in the final result and convert it to a JSON string.
+
+* Arrange a data sheet for a family phone book and publish it and convert it to a JSON string.
+
+* Create a MERN Stack , Laravel, Django, Golan, Wordpress, java, deves student data structure and convert it to a JSON string.
+
+* Make an array of those JSON string and convert it to a JSON and after that find all data by json to a object

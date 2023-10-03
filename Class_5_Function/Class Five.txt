@@ -1,0 +1,19 @@
+Class 05
+1. Function declaration 
+2. Function expression
+3. Arrow function
+4. Construction function 
+5. Callback/ closer function
+6. Promise function 
+7. Async await function
+
+Assignment for other type of function 
+
+# Create a function that will return children, teenagers, young people, old people from the age
+# Create a function that will return the area if a rectangle, square, tringle
+# GPA, CGPA, GREADE function for result publish
+# Create a age calculator function
+# Create a currency converter function from taka to USD, CAD, POUND, EURO etc
+# Create BMI calculator function 
+
+

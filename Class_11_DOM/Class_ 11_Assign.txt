@@ -1,0 +1,16 @@
+Class 11
+- What is DOM 
+- DOM selector methods and its use
+- DOM properties
+- Event Listener
+- DOM events
+
+- Basic project 
+
+# Assignment
+=================
+1. Load all developers in DOM form object data
+2. Load all student in DOM from object
+3. Load all phone book data to DOM 
+
+

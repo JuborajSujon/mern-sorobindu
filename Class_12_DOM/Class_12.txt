@@ -1,0 +1,7 @@
+ Class 12
+
+- DOM Elements
+- DOM Node
+- Form management
+- form validation 
+

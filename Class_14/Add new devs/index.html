@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+  </head>
+  <body>
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card border-1 shadow-sm border-danger p-3">
+            <div class="card-body py-0">
+              <h2 class="h5">Add New Devs</h2>
+            </div>
+            <hr />
+            <form id="devs_form">
+              <div class="mb-2">
+                <label for="devName" class="form-label">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control border-primary"
+                  id="devName"
+                  placeholder="Enter Dev name"
+                />
+              </div>
+              <div class="mb-2">
+                <label for="devName" class="form-label">Age</label>
+                <input
+                  type="text"
+                  name="age"
+                  class="form-control border-primary"
+                  id="devAge"
+                  placeholder="Enter Dev age"
+                />
+              </div>
+              <div class="mb-2">
+                <label class="form-label">Gender</label>
+                <div class="input-group-text border-primary">
+                  <input
+                    class="form-check-input me-2"
+                    id="male"
+                    type="radio"
+                    value="Male"
+                    name="gender"
+                  />
+                  <label for="male" class="mt-1 me-3">Male</label>
+                  <input
+                    class="form-check-input me-2"
+                    id="female"
+                    type="radio"
+                    value="Female"
+                    name="gender"
+                  />
+                  <label for="female" class="mt-1">Female</label>
+                </div>
+              </div>
+              <div class="mb-2">
+                <label class="form-label">Skill</label>
+                <div class="form-check border-1 border-primary">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="React Developer"
+                    id="react"
+                    name="skill"
+                  />
+                  <label class="form-check-label" for="react">
+                    React Developer
+                  </label>
+                  <br />
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="Laravel Developer"
+                    id="laravel"
+                    name="skill"
+                  />
+                  <label class="form-check-label" for="laravel">
+                    Laravel Developer </label
+                  ><br />
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="IOS Developer"
+                    id="ios"
+                    name="skill"
+                  />
+                  <label class="form-check-label" for="ios">
+                    IOS Developer </label
+                  ><br />
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="Python Developer"
+                    id="python"
+                    name="skill"
+                  />
+                  <label class="form-check-label" for="python">
+                    Python Developer
+                  </label>
+                </div>
+              </div>
+              <div class="mb-2">
+                <label for="devSalary" class="form-label">Salary</label>
+                <input
+                  type="text"
+                  name="salary"
+                  class="form-control border-primary"
+                  id="devSalary"
+                  placeholder="Enter Dev salary"
+                />
+              </div>
+              <div class="mb-2">
+                <label for="devLocation" class="form-label">Location</label>
+                <input
+                  type="text"
+                  name="location"
+                  class="form-control border-primary"
+                  id="devLocation"
+                  placeholder="Enter Dev location"
+                />
+              </div>
+              <div class="mb-2">
+                <label for="devPhoto" class="form-label">Photo URL</label>
+                <input
+                  type="text"
+                  name="photo"
+                  class="form-control border-primary"
+                  id="devPhoto"
+                  placeholder="Enter Dev photo"
+                />
+              </div>
+              <div class="d-grid col-6 mx-auto">
+                <button class="btn btn-primary" type="submit">
+                  Add new devs
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="row devs_area"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS Files -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./src/js/function.js"></script>
+    <script src="./src/js/app.js"></script>
+  </body>
+</html>

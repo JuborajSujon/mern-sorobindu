@@ -1,0 +1,20 @@
+# Class 10
+
+- Local Storage
+- Session Storage
+- Create a data server through LS
+- What is Regular Expression and why
+- Syntax
+- Modifiers
+- Metacharacters
+
+
+Assignment
+==========
+# Create an email pattern
+# Create a username pattern 
+# Create a bangladeshi phone number pattern list
+# Create a password strength pattern 
+# Create a password pattern 
+# Create a zipcode pattern 
+

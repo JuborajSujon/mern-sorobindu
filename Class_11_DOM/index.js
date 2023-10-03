@@ -1,0 +1,12 @@
+const h2 = document.querySelector(".container h2");
+console.log(h2.hasAttribute("class"));
+h2.className = "header";
+h2.className += " headerTwo";
+h2.classList.add("headerThree");
+h2.classList.add("headerFour");
+h2.className += " headerFive headerSix";
+h2.classList.remove("headerSix");
+h2.classList.replace("headerFive", "headerReplace");
+console.log(h2.classList.contains("header"));
+h2.classList.toggle("headerSix");
+h2.id = "header";

@@ -1,0 +1,3 @@
+# Regular Expression
+
+- Pattern are used with the exec() and test() method of RegExp And with the match(), matchAll(), replace() ,replaceAll(), split() and search() methods of String

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+  </head>
+  <body>
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card border-1 shadow-sm border-danger p-3">
+            <div class="card-body py-0">
+              <h2 class="h5">Add New Skill</h2>
+            </div>
+            <hr />
+            <form id="devs_form">
+              <div class="mb-2">
+                <div class="form-check border-1 border-primary">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="React Developer"
+                    id="react"
+                    name="skill"
+                  />
+                  <label class="form-check-label" for="react">
+                    React Developer
+                  </label>
+                  <br />
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="Laravel Developer"
+                    id="laravel"
+                    name="skill"
+                  />
+                  <label class="form-check-label" for="laravel">
+                    Laravel Developer </label
+                  ><br />
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="IOS Developer"
+                    id="ios"
+                    name="skill"
+                  />
+                  <label class="form-check-label" for="ios">
+                    IOS Developer </label
+                  ><br />
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="Python Developer"
+                    id="python"
+                    name="skill"
+                  />
+                  <label class="form-check-label" for="python">
+                    Python Developer
+                  </label>
+                  <br />
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="GoLang Developer"
+                    id="golang"
+                    name="skill"
+                  />
+                  <label class="form-check-label" for="golang">
+                    GoLang Developer
+                  </label>
+                  <br />
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="Android Developer"
+                    id="android"
+                    name="skill"
+                  />
+                  <label class="form-check-label" for="android">
+                    Android Developer
+                  </label>
+                  <br />
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="Blockchain Developer"
+                    id="blockchine"
+                    name="skill"
+                  />
+                  <label class="form-check-label" for="blockchine">
+                    Blockchain Developer
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="row">
+            <ul class="list-group all-skill"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS Files -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./src/js/function.js"></script>
+    <script src="./src/js/app.js"></script>
+  </body>
+</html>
