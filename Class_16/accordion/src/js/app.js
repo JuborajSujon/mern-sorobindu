@@ -1,9 +1,14 @@
 // get element
 const acc_header = document.querySelectorAll(".accordion-header");
-const acc_body = document.querySelectorAll(".accordion-body");
 
 acc_header.forEach((item) => {
   item.addEventListener("click", function () {
+    acc_header.forEach((item) => {
+      if (item != this) {
+        item.classList.remove("active");
+        item.nextElementSibling.style.height = "0px";
+      }
+    });
     item.classList.toggle("active");
     if (item.classList.contains("active")) {
       // item.nextElementSibling.style.display = "block";
