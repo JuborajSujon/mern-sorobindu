@@ -1,0 +1,15 @@
+{
+  "name": "api-team-member",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "js": "json-server --watch db.json --port 1010"
+  },
+  "keywords": [],
+  "author": "Sujon Miah",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
