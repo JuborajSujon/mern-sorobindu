@@ -1,0 +1,66 @@
+{
+  "developers": [
+    {
+      "id": 3,
+      "name": "Mizan Hawlader",
+      "email": "mizan@gmail.com",
+      "cell": "01984765637",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRINckTi3icUawHmIYsWB_e0NEatcYaDJXjoA&usqp=CAU",
+      "skillId": "3"
+    },
+    {
+      "id": 4,
+      "name": "Mark Xiuan",
+      "email": "xiuan@gmail.com",
+      "cell": "01923456789",
+      "photo": "https://powerpackelements.com/wp-content/uploads/2017/11/Team-memeber-9.png",
+      "skillId": "3"
+    },
+    {
+      "id": 5,
+      "name": "Jonayed Ahamed",
+      "email": "jonayed@gmail.com",
+      "cell": "01723456786",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRINckTi3icUawHmIYsWB_e0NEatcYaDJXjoA&usqp=CAU",
+      "skillId": "5"
+    },
+    {
+      "id": 6,
+      "name": "Annas Mohammad Lisan",
+      "email": "annas@gmail.com",
+      "cell": "0193857243",
+      "photo": "https://unitedthemes.com/wp-content/uploads/2018/09/team2.jpg",
+      "skillId": "3"
+    }
+  ],
+  "skill": [
+    {
+      "id": 1,
+      "name": "Laravel Developer"
+    },
+    {
+      "id": 2,
+      "name": "MERN Stack Developer"
+    },
+    {
+      "id": 3,
+      "name": "WordPress Developer"
+    },
+    {
+      "id": 4,
+      "name": "IOS Developer"
+    },
+    {
+      "id": 5,
+      "name": "Django Developer"
+    },
+    {
+      "id": 6,
+      "name": "PHP Developer"
+    },
+    {
+      "id": 7,
+      "name": "Python Developer"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <!-- code start here -->
+    <!-- Data table -->
+    <div class="devs">
+      <a href="#modal-add" class="btn btn-primary" data-bs-toggle="modal"
+        >Add new devs</a
+      >
+      <hr />
+      <div class="card">
+        <div class="card-body">
+          <table class="table table-striped">
+            <thead>
+              <th>#</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Cell</th>
+              <th>Photo</th>
+              <th>Action</th>
+            </thead>
+            <tbody id="devs-data-list"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- Devs Add Modal -->
+    <div class="modal fade" id="modal-add">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title">Add New Devs</h1>
+          </div>
+          <div class="modal-body">
+            <form id="devs-add-form">
+              <div class="mb-3">
+                <label for="devs-name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="devs-name" />
+              </div>
+              <div class="mb-3">
+                <label for="devs-email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="devs-email" />
+              </div>
+              <div class="mb-3">
+                <label for="devs-cell" class="form-label">Cell</label>
+                <input type="text" class="form-control" id="devs-cell" />
+              </div>
+              <div class="mb-3">
+                <label for="devs-photo" class="form-label">Photo</label>
+                <input type="text" class="form-control" id="devs-photo" />
+              </div>
+              <div class="mb-3">
+                <label for="devs-ops" class="form-label">Skill</label>
+                <select
+                  name=""
+                  id="devs-ops"
+                  class="form-control"
+                  class="skills-load">
+                  <option value="">-select-</option>
+                </select>
+              </div>
+              <button
+                type="submit"
+                data-bs-dismiss="modal"
+                class="btn btn-primary w-100">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Devs view Modal -->
+    <div class="modal fade" id="modal-view">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Devs Edit Modal -->
+    <div class="modal fade" id="modal-edit">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <h2>Edit Developers Data</h2>
+            <hr />
+            <form id="devs-edit-form">
+              <div class="mb-3">
+                <input type="hidden" class="form-control" id="edevs-edit-id" />
+              </div>
+              <div class="mb-3">
+                <label for="edevs-name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="edevs-name" />
+              </div>
+              <div class="mb-3">
+                <label for="edevs-email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="edevs-email" />
+              </div>
+              <div class="mb-3">
+                <label for="edevs-cell" class="form-label">Cell</label>
+                <input type="text" class="form-control" id="edevs-cell" />
+              </div>
+              <div class="mb-3">
+                <img class="w-100" src="" id="epreview" alt="" />
+                <label for="edevs-photo" class="form-label">Photo</label>
+                <input type="text" class="form-control" id="edevs-photo" />
+              </div>
+              <div class="mb-3">
+                <label for="edevs-ops" class="form-label">Skill</label>
+                <input
+                  type="text"
+                  id="edevs-ops"
+                  class="form-control"
+                  class="skills-load" />
+              </div>
+              <button
+                type="submit"
+                data-bs-dismiss="modal"
+                class="btn btn-primary w-100">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Devs Delete Modal -->
+    <div class="modal fade" id="modal-delete">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <h2 class="text-center">Are you sure ?</h2>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt,
+              voluptates.
+            </p>
+            <div class="btns mt-3 d-flex justify-content-end">
+              <button data-bs-dismiss="modal" class="btn btn-info me-3">
+                Close
+              </button>
+              <button
+                data-bs-dismiss="modal"
+                delId=""
+                id="deldata"
+                class="btn btn-danger ms-3">
+                Delete
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS Files -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./src/js/function.js"></script>
+    <script src="./src/js/app.js"></script>
+  </body>
+</html>
