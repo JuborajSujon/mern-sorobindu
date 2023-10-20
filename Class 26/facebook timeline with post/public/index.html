@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post and timeline of facebook</title>
+  </head>
+  <body>
+    <section class="post-area">
+      <div class="container my-5">
+        <div class="row justify-content-center">
+          <div class="col-md-5">
+            <div class="card shadow">
+              <div class="card-body">
+                <div class="user-post-area">
+                  <img class="card-img" id="user-img" src="" alt="" />
+                  <button data-bs-toggle="modal" data-bs-target="#postModal">
+                    What's on your mind, Juboraj?
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="timeline">
+      <div class="container my-5">
+        <div class="row justify-content-center">
+          <div id="post-content-loader" class="col-md-5">
+            <!-- post timeline area Start-->
+
+            <!-- post timeline area End-->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="post-modal">
+      <div class="modal fade" id="postModal">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Create a Post</h3>
+            </div>
+            <div class="modal-body">
+              <div class="msg"></div>
+              <form id="create_post_form" method="POST">
+                <div class="my-2">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    placeholder="Auth Name" />
+                </div>
+                <div class="my-2">
+                  <input
+                    type="text"
+                    name="user_photo"
+                    class="form-control"
+                    placeholder="Auth Photo" />
+                </div>
+                <div class="my-2">
+                  <input
+                    type="text"
+                    name="content"
+                    class="form-control"
+                    placeholder="Content" />
+                </div>
+                <div class="my-2">
+                  <input
+                    type="text"
+                    name="post_photo"
+                    class="form-control"
+                    placeholder="Photo" />
+                </div>
+                <div class="my-2">
+                  <input
+                    type="submit"
+                    class="btn btn-primary w-100"
+                    value="Post" />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

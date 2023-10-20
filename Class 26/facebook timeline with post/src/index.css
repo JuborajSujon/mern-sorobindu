@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+}
+.user-post-area {
+  display: flex;
+  justify-content: space-between;
+}
+.user-post-area img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.user-post-area button {
+  padding: 10px 20px;
+  background-color: #f0f2f5;
+  border: 1px solid #f0f2f5;
+  border-radius: 100px;
+  width: 90%;
+  text-align: left;
+}
+
+.user-post-info .user-info img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.user-post-info .user-info h5 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.user-post-info button {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  font-weight: 300;
+  cursor: pointer;
+  transform: translate(0, -13px);
+}
